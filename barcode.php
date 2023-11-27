@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-$filepath = (isset($_GET["filepath"])?$_GET["filepath"]:"test.png");
+$filepath = (isset($_GET["filepath"])?$_GET["filepath"]:"test.webp");
 $text = (isset($_GET["text"])?$_GET["text"]:"0");
 $size = (isset($_GET["size"])?$_GET["size"]:"20");
 $orientation = (isset($_GET["orientation"])?$_GET["orientation"]:"horizontal");
